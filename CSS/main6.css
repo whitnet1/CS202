@@ -1,0 +1,48 @@
+:root{
+    --main-color: #05a081;
+    --bg-color: #007d65;
+    --text-color:#fff;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content: space-around; */
+    background: var(--main-color);
+
+}
+nav ul li{
+    /* display: inline-block; */
+    flex: 1;
+}
+nav a{
+    display: block;
+    color: var(--text-color);
+    text-align: center;
+    padding: 1em;
+}
+nav ul li ul{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li{
+    position: relative;
+}
+
+nav ul li ul li ul{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+nav ul li ul li:hover ul{
+    display: block;
+}

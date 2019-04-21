@@ -1,0 +1,19 @@
+.box{
+    background-color: #333;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: boxname;
+    animation-duration: 2s;
+}
+@keyframes boxname{
+    /* condition */
+    from{background-color: #333;}
+    to{background-color: red;}
+
+    0%{background-color: #333;}
+    25%{background-color: green;}
+    50%{background-color: blue;}
+    75%{background-color: yellow;}
+    100%{background-color: red;}
+}

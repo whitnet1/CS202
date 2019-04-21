@@ -1,0 +1,29 @@
+:root{
+    --main-color: tomato;
+    --text-color: #fff;
+}
+.box{
+    width: 500px;
+    height: 200px;
+    background: var(--main-color);
+    margin: 10px;
+    position: relative;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-delay: .25s;
+
+}
+.box:hover{
+    width: 200px;
+}
+/* Gradient - liniar, radial*/
+.a{
+    background: linear-gradient(to right, green, yellow);
+}
+.b{
+    background: radial-gradient(red, black);
+}
+.c{
+    background: linear-gradient(to right, #fdc830, #f37335);
+}
+/* Transition - hover, active */
