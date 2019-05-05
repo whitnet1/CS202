@@ -1,3 +1,4 @@
+
 @import 'main10/all.css';
 @import 'main10/bootstrap.css';
 @import 'main10/font.css';
@@ -5,10 +6,9 @@
 @import 'main10/showcase.css';
 @import 'main10/main.css';
 @import 'main10/contact.css';
-
 :root{
-    --main-color: #05a081;
-    --text-color: #fff;
+    --main-color:#05a081;
+    --text-color:#fff;
 }
 #showcase{
     background-image: url(../images/showcase.jpg);
@@ -21,3 +21,6 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+
+

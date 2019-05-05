@@ -1,17 +1,17 @@
 .showcase-text{
     display: flex;
-    padding: 15%;
-    width: 100%;
+    padding:15% 0;
 }
 .showcase-text-items{
     width: 50%;
     text-align: center;
-    color: var(--text-color);
-    margin: auto;
+    color:var(--text-color);
+    margin:auto;
+
 }
 .showcase-text-items h2{
     text-align: center;
-    font-size: 30px;
+    font-size: 3em;
 }
 .showcase-text-items p{
     text-align: center;

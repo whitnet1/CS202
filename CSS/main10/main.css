@@ -1,7 +1,10 @@
 main{
     display: flex;
+    flex-flow: row-wrap;
+    padding: 5% 0;
 }
 .main_1{
+    flex: 1;
+    padding:3%;
     text-align: center;
-    padding: 1em;
 }
